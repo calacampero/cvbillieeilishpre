@@ -1,0 +1,176 @@
+*{margin : 10px ; padding: 0;}
+:root{--clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);}
+html{scroll-behavior: smooth;
+    overflow-x: hidden;}
+body{ font-family: 'Roboto Mono', monospace; 
+    background-color: black; 
+    color: rgb(145, 255, 0)}
+
+
+header{display: flex; }
+header div{margin: 0; padding: 0;}
+
+.fotosbillie{width: 33.3%;}
+img{border-radius: 10px; 
+    width: 100%}
+
+.nombre{width: 33.3%; 
+    align-items: flex-end; 
+    margin-left: 20px;
+     align-content: center; 
+     margin-top: 100px;}
+.nombre a{text-decoration: none;
+     color: rgb(145, 255, 0);
+     justify-content: center;}
+.nombre a:hover {color :rgb(64, 113, 0)}
+
+.contacto{justify-content: right; 
+    display: flex ;
+    width: 33.3%;
+    flex-flow: wrap;
+     height: 200px; 
+     align-items: center; 
+    align-content: center; 
+    margin-top: 45px;}
+.contacto a{text-decoration: none; 
+    color: rgb(145, 255, 0) }
+.contacto a:hover {color :rgb(64, 113, 0)}
+
+.redes {
+    width: 33.3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.redes img{
+    width: 30px;
+    transition: all 0.5s ease;
+}
+
+.redes img:hover{opacity: 0.5;}
+
+.secciones a {text-decoration: none;
+     color: black; 
+     margin: 0;}
+.secciones a::after{ content: "";
+     display: block; 
+    background:rgb(64, 113, 0);
+    width: 100%; 
+    height: 2px;
+    clip-path: var(--clippy);
+    transition: all .3s; }
+.secciones a:hover { --clippy: polygon(0 0, 100% 0, 100% 99%, 0 100%);}
+
+.secciones{ background-color: rgb(145, 255, 0) ; 
+    color: black;
+    display: flex; 
+    height: 80px; 
+    justify-content: space-evenly;
+    align-items: center; }
+
+
+.logros{display: flex; 
+    width: 100%; 
+    flex-direction: row;}
+.sobre{width: 33.3%}
+.grandes{width: 33.3%; 
+    margin-top: 120px;}
+.reconocimientos{width: 33.3%;
+     margin-top: 220px;}
+.grandes a{text-decoration: none; 
+    color: rgb(145, 255, 0)}
+.grandes a:hover {color :rgb(64, 113, 0)}
+
+footer{display: flex;
+    justify-content: center}
+.foot-body{display: flex;}
+
+.boton{font-size: medium;
+     font-family: 'Roboto Mono', monospace; 
+     border: solid 1.5px; 
+    border-color: rgb(145, 255, 0); 
+    border-radius: 10px;
+    color:rgb(145, 255, 0);
+    background-color: black; 
+    padding: 6px;
+    justify-content: center;
+    width: 150px; 
+    height: 40px; 
+    text-decoration: none;}
+
+.habilidades{justify-content: center; 
+    display: flex; 
+    justify-content: space-between;
+    box-sizing: border-box; }
+.habilidades div{width: 33.3%;}
+.personal h1{text-align: center;}
+.personal li{padding-top: 15px;}
+.personal{border: solid 1.5px; 
+    border-radius: 10px; 
+    border-color:  rgb(145, 255, 0); 
+    align-items: center; 
+    padding: 10px;}
+.social h1{text-align: center;}
+.social li{padding-top: 100px;}
+.social{border: solid 1.5px;
+     border-radius: 10px;
+      border-color:  rgb(145, 255, 0); 
+      align-items: center; 
+      padding: 10px;}
+.musical h1{text-align: center;}
+.musical li{padding-top: 15px;}
+.musical{border: solid 1.5px; 
+    border-radius: 10px; 
+    border-color:  rgb(145, 255, 0) ;
+      align-items: center; 
+      padding: 10px;}
+
+.formacion{border: solid 1.5px;
+    border-radius: 10px; 
+    border-color:  rgb(145, 255, 0) ; 
+    align-items: center; 
+    padding: 10px;
+    margin: 10px;
+    
+    }
+.formacion div{  width: 80%;
+}
+
+.experiencia{
+    justify-content: center;
+    margin: 10px; 
+    align-items: center;
+    align-content: center;
+    margin-left: 400px;
+}
+
+.contactar{height: 100px;
+    display: flex;
+    margin-top: 35px;
+}
+.contactar a:hover{
+    opacity: 0.5
+}
+.titulofoot a {text-decoration: none;
+    color: black; 
+    margin: 0;}
+.titulofoot a::after{ content: "";
+    display: block; 
+   background:rgb(64, 113, 0);
+   width: 100%; 
+   height: 2px;
+   clip-path: var(--clippy);
+   transition: all .3s; }
+.titulofoot a:hover { --clippy: polygon(0 0, 100% 0, 100% 99%, 0 100%);}
+footer{background-color: rgb(145, 255, 0) ; 
+    color: black;
+    display: flex; 
+    height: 100px; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+
+
